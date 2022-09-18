@@ -18,7 +18,7 @@
     }],
     "grammars": [{
       "language": "jpp",
-      "scopeName": "",
+      "scopeName": "text.jpp",
       "path": "./syntaxes/jpp.tmLanguage.json"
     }]
   }
