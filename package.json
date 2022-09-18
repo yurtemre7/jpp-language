@@ -1,0 +1,25 @@
+{
+  "name": "jpp-language",
+  "displayName": "jpp language",
+  "description": "syntax highlighting made easy",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "jpp",
+      "aliases": ["jpp", "jpp"],
+      "extensions": [".jpp",".gvm",".gc"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "jpp",
+      "scopeName": "",
+      "path": "./syntaxes/jpp.tmLanguage.json"
+    }]
+  }
+}
