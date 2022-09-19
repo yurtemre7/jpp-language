@@ -19,25 +19,14 @@
     },
     {
       "include": "#label"
-    },
-	{
-		"include": "parameter"
-	}
+    }
   ],
   "repository": {
     "keywords": {
       "patterns": [{
         "name": "keyword.control.jpp",
-        "match": "(ret|#)"
+        "match": "(call|ret|alloc|free|jmp|cjmp|exit|#|\\b[t|s][x|i|r|k][0-7]\\b)"
       }]
-    },
-    "parameter": {
-      "patterns": [
-        {
-          "name": "variable.parameter.jpp",
-          "match": "\b[a-zA-Z_][a-zA-Z0-9_]*\b"
-        }
-      ]
     },
     "label": {
       "patterns": [{
@@ -54,7 +43,7 @@
     "function": {
       "patterns": [{
         "name": "keyword.functions.jpp",
-        "match": "(mov|addi|subi|muli|divi|shri|addf|subf|mulf|divf|and|or|xor|not|shl|shr|itof|ftoi|test|lti|eqi|gti|ltf|eqf|gtf|jmp|call|ret|exit|alloc|free)"
+        "match": "(mov|cmov|addi|subi|muli|divi|shri|addf|subf|mulf|divf|and|or|xor|not|shl|shr|itof|ftoi|test|lti|eqi|gti|ltf|eqf|gtf)"
       }]
     },
     "comment": {
