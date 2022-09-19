@@ -9,8 +9,6 @@ jpp, a fast interpreted language using the jpp interpreter made by [DeveloperX19
 
 ![feature X](https://raw.githubusercontent.com/yurtemre7/jpp-language/main/images/image1.png)
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
 ## Requirements
 
 You need the jpp interpreter. Currently in development.
