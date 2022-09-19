@@ -2,7 +2,7 @@
   "name": "jpp-language",
   "displayName": "jpp language",
   "description": "syntax highlighting made easy",
-  "version": "0.0.1",
+  "version": "0.0.1+1",
   "engines": {
     "vscode": "^1.71.0"
   },
